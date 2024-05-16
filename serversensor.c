@@ -11,7 +11,7 @@
 #include <math.h> // Mathematical functions
 
 #define BUF_SIZE 256 // Size of buffer for message exchange
-#define SERVER_IP "192.168.1.41" // Server IP address
+#define SERVER_IP "192.168.1.44" // Server IP address
 #define PORT 8888 // Port number
 #define BUFFER_SIZE 1024 // Size of buffer for sensor data
 #define DATA_COUNT 10 // Number of sensor data elements
@@ -193,5 +193,6 @@ void SIGINT_handler(int sig){
     printf("\nSIGINT Received\n");
     run = false; // Update flag to stop program execution
 }
+
 
 
